@@ -1,5 +1,7 @@
 require 'sinatra'
 require 'json'
+
+
 get '/:number' do
   content_type :json
   number = params[:number].to_i
